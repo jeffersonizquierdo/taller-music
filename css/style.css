@@ -1,0 +1,258 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    background-image: url('../images/angel-jimenez.jpg');
+    text-align: center;
+    padding: center;
+    padding: 20%;
+    background-size:cover;
+    margin: 0 0 10% 0;
+}
+
+main h1 {
+    font-size: 210px;
+    color:  white;
+    margin: -4% 0 0 8%;
+}
+
+div h1 {
+    color: rgb(255, 16, 144);
+    width: auto;
+    font-size: 70px;
+}
+
+div p {
+    width: 400px;
+    float: left;
+}
+
+.matt{
+    float: right;
+    width: 500px;
+    margin: 0 10% 0 0;
+}
+
+.caja1 {
+    margin: 3% 0 0 15%;
+    float: left;
+}
+
+.tercer_titulo{
+    margin: 0 0 3% 0;
+    font-size: 70px;
+}
+
+.segundo_titulo{
+    font-size: 70px;
+}
+
+.parrafo{
+    font-size: 20px;
+    width: 580px;
+}
+
+.boton{
+    background-color:rgb(243, 56, 87);
+    width: 200px;
+    clear: both;
+    margin: 50px 0 0 0;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+}
+
+.caja2 {
+    clear: both;
+    margin: 13% 8% 10% 0;
+    float: right;
+    width: 500px;
+}
+
+.wesley{
+    float: left;
+    width: 500px;
+    margin: 10% 10% 10% 12%;
+}
+.primero{
+    font-size: 70px;
+    background: linear-gradient(to left, rgb(236, 61, 8) 97%, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.segundo{
+    font-size: 60px;
+}
+
+.dosparrafo{
+    font-size: 20;
+
+}
+
+.caja3{
+    background-image: url('../images/john-raptis.png');
+    padding: center;
+    clear: both;
+    background-size:cover;
+    padding: 10%;
+    height: 320px;
+}
+
+.puno{
+    width: 550px;
+    float: right;
+    font-size: 70px;
+    color: white;
+
+}
+
+.pdos{
+    width: 550px;
+    float: right;
+    clear: both;
+    font-size: 70px;
+    color: white;
+
+}
+
+.ptres{
+    width: 550px;
+    float: right;
+    clear: both;
+    color: white;
+}
+
+.ultimoboton{
+    background-color:rgb(243, 56, 87);
+    width: 200px;
+    clear: both;
+    margin: 50px 26% 0 0;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+    float: right;
+    clear: both;
+}
+.caja4 {
+    float: right;
+    width: 20%;
+    margin: 298px 0 223px 0px;
+  }
+  .caja5 {
+    float: right;
+    width: 20%;
+    margin: 298px 0 223px 0px;
+  }
+  .caja6 {
+    float: right;
+    width: 20%;
+    margin: 298px 0 223px 0px;
+  }
+  .caja7 {
+    float: right;
+    width: 20%;
+    margin: 298px 0 223px 0px;
+  }
+  .clear10 {
+    clear: both;
+    background-color: white;
+    height: 1px;
+  }
+  .ultimo {
+    float: left;
+    margin: 4px 54% 0px 10%;
+  }
+
+  footer{
+      background-color: rgb(243, 56, 87);
+      color: white;
+  }
+
+
+
+@media(max-width:750px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        width: auto;
+    }
+
+    main h1 {
+        font-size: 70px;
+
+    }
+
+    .matt{
+        width: auto;
+        margin: 5% 0 0 10%  ;
+        float: none;
+    }
+
+    .wesley{
+        width: auto;
+        float: none;
+        margin: 5% 0 0 10%;
+    }
+
+    .caja2{
+        float: none;
+        width: auto;
+        margin: 3% 0 0 20%;
+    }
+}
+
+@media(max-width:570px){
+
+    .caja1{
+        width:90%;
+
+    }
+
+    .matt{
+        width: 400px;
+    }
+
+    .caja2{
+        width: auto;
+    }
+
+    .wesley{
+        width:400px;
+    }
+
+    .caja4 {
+        float: left;
+        width: 5%;
+
+      }
+      .caja5 {
+        clear: both;
+        float: left;
+        width: 5%;
+
+      }
+      .caja6 {
+        clear: both;
+        float: left;
+        width: 5%;
+
+      }
+      .caja7 {
+          clear: both;
+        float: left;
+        width: 5%;
+
+      }
+
+}
